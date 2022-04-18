@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css"
+		/>
+
+		<title>SignUp Page</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="formDiv">
+				<h2>SIGN UP</h2>
+				<form method="post" id="form">
+					<input type="text" placeholder="Enter name" id="name" />
+					<input type="text" id="email" placeholder="Enter Email" />
+					<textarea
+						placeholder="Address"
+						rows="4"
+						cols="40"
+					></textarea>
+
+					<input
+						type="text"
+						id="datepicker"
+						placeholder="select DOB"
+					/>
+					<input
+						type="number"
+						id="ageSelector"
+						placeholder="select age"
+					/>
+					<div id="passwordBox">
+						<input
+							type="password"
+							id="password"
+							placeholder="Enter password"
+						/>
+						<div id="imageContainer1">
+							<img src="open-eye.png" alt="show password" />
+						</div>
+						<div id="passwordBox">
+							<input
+								type="password"
+								id="confirmPassword"
+								placeholder="Confirm password"
+							/>
+							<div id="imageContainer2">
+								<img src="open-eye.png" alt="show password" />
+							</div>
+						</div>
+					</div>
+					<input type="submit" value="Sign Up" />
+				</form>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+		<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+		<script src="index.js"></script>
+	</body>
+</html>

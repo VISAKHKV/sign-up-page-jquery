@@ -1,0 +1,83 @@
+body {
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+	width: 100%;
+	font-family: "Myriad Pro", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
+	background-color: #ecf0f1;
+	text-decoration: none;
+	appearance: none;
+}
+#wrapper {
+	margin: 0 auto;
+	padding: 0px;
+	text-align: center;
+	max-width: 995px;
+}
+img {
+	display: block;
+	width: 100%;
+}
+
+#formDiv {
+	background-color: rgb(145, 137, 137);
+	padding: 20px;
+}
+input {
+	width: 300px;
+	font-size: 16px;
+	padding-top: 20px;
+	padding: 10px;
+	border: 1px solid #141414;
+	border-radius: 4px;
+	margin-bottom: 25px;
+}
+input[type="submit"] {
+	background-color: aqua;
+	width: 200px;
+}
+textarea {
+	width: 315px;
+	border: 1px solid #141414;
+	font-size: 16px;
+	margin-bottom: 25px;
+	border-radius: 4px;
+	font-family: unset;
+}
+#form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#passwordBox {
+	position: relative;
+	width: 350px;
+}
+#imageContainer1,
+#imageContainer2 {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	cursor: pointer;
+	right: 20px;
+	top: 10px;
+}
+
+/* datepicker styling */
+
+#ui-datepicker-div {
+	background-color: #918989;
+	border: 2px solid #141414;
+	border-radius: 5px;
+	padding: 10px;
+	display: none;
+}
+.ui-datepicker-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+	width: 50%;
+}
